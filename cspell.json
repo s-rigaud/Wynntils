@@ -1,0 +1,49 @@
+{
+    "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+    "version": "0.2",
+    "dictionaryDefinitions": [
+        {
+            "name": "project-words",
+            "path": "./project-words.txt",
+            "addWords": true
+        }
+    ],
+    "dictionaries": [
+        "project-words"
+    ],
+    "ignorePaths": [
+        "cspell.json",
+        "errors.txt",
+        "node_modules",
+        "/project-words.txt",
+        "common/src/main/resources/assets/wynntils/lang/de_de.json",
+        "common/src/main/resources/assets/wynntils/lang/es_es.json",
+        "common/src/main/resources/assets/wynntils/lang/fr_fr.json",
+        "common/src/main/resources/assets/wynntils/lang/hu_hu.json",
+        "common/src/main/resources/assets/wynntils/lang/it_it.json",
+        "common/src/main/resources/assets/wynntils/lang/ja_jp.json",
+        "common/src/main/resources/assets/wynntils/lang/ko_kr.json",
+        "common/src/main/resources/assets/wynntils/lang/nl_nl.json",
+        "common/src/main/resources/assets/wynntils/lang/pl_pl.json",
+        "common/src/main/resources/assets/wynntils/lang/pt_pt.json",
+        "common/src/main/resources/assets/wynntils/lang/ru_ru.json",
+        "common/src/main/resources/assets/wynntils/lang/sv_se.json",
+        "common/src/main/resources/assets/wynntils/lang/zh_cn.json",
+        "common/src/main/resources/assets/wynntils/lang/zh_tw.json",
+
+        // Other files
+        "tsconfig.tsbuildinfo",
+        "TODOS.md",
+        "type-errors.txt",
+        "spelling-errors.txt",
+    ]
+}
+
+// Listing files
+// cspell "**" --no-issues
+
+// Saving errors
+// cspell "**" > "spelling-errors.txt"
+
+// Ensuring no issues are found
+// cspell --words-only --unique "**" >> all_errors.txt
